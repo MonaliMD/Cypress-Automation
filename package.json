@@ -1,0 +1,23 @@
+{
+  "name": "cypress-tutorial",
+  "version": "1.0.0",
+  "description": "cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "open": "$(npm bin)/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonaliMD/Cypress-Automation.git"
+  },
+  "author": "Monali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonaliMD/Cypress-Automation/issues"
+  },
+  "homepage": "https://github.com/MonaliMD/Cypress-Automation#readme",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
+}
