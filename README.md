@@ -1,9 +1,9 @@
 # Cypress-Automation
-This is my cypress learning repository
---install and create cypress project--
-1. Go inside "Cypress-Automation" folder
+<h2>install and create cypress project folder</h2>
 
-2. Open your terminal and type "npm init" to generate your package json file, there you can add your package name, description, test command, author and etc.
+1. Go inside <b>"Cypress-Automation"</b> folder.
+
+2. Open your terminal and type <b>"npm init"</b> to generate your package json file, there you can add your package name, description, test command, author and etc.
 
 3. You can see your package json conteny using "cat package.json" command or you can siply open file using any code editor.this includes all informations about your project dependencies, plugins, scripts you going to execute and etc.
 
