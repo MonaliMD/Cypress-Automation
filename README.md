@@ -1,5 +1,5 @@
 # Cypress-Automation
-<h2>install and create cypress project folder</h2>
+<h2>Install and create cypress project folder</h2>
 
 1. Go inside <b>"Cypress-Automation"</b> folder.
 
