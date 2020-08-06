@@ -3,9 +3,9 @@
 
 1. Go inside <b>"Cypress-Automation"</b> folder.
 
-2. Open your terminal and type <b>"npm init"</b> to generate your package json file, there you can add your package name, description, test command, author and etc.
+2. Open your terminal and type <b>"npm init"</b> to generate your package JSON file, there you can add your package name, description, test command, author, etc.
 
-3. You can see your package json conteny using <b>"cat package.json"</b> command or you can siply open file using any code editor.this includes all informations about your project dependencies, plugins, scripts you going to execute and etc.
+3. You can see your package JSON content using <b>"cat package.json"</b> command or you can simply open the file using any code editor. this includes all information about your project dependencies, plugins, scripts you going to execute, etc.
 
 4. Then install cypress using <b>"npm install cypress --save-dev"</b> or "sudo npm install cypress --save-dev"  to install cypress locally.
 
