@@ -1,11 +1,11 @@
-//describe --> name of the test suit
-describe('First test suit', function() {
+//describe --> test suit or group of tests
+describe('Search functinality', function() {
 
-    //it--test case 1
-    it('Verify title of page-positive', function() {
-
+    //it-->tests in cypress
+    it('search by text', function() {
         //we can have mutiple steps
-        cy.visit('https://monalimd.github.io/')
-        cy.title('eq', 'Monali Wijesinghe')
+        cy.visit('https://www.google.com/')
+        cy.get("input[name='q']").type('CSS{enter}')
+        cy.get(".SPZz6b h2 span").should('have.text', 'Cascading Style Sheets')
     })
 })
