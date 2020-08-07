@@ -52,21 +52,21 @@ describe ('test suit description', () => {
   })
 })
 ```
-<b>describe:</b> can be use as test suite(group of tests).
+<b>describe() :</b> can be use as test suite(group of tests).
 
-  <b>describe : first parameter</b> string, can provide test suite name.
-  <b>describe : second parameter</b> function.
+  <b>describe() : first parameter</b> string, can provide test suite name.
+  <b>describe() : second parameter</b> function.
   
-<b>it:</b> test case.
+<b>it():</b> test case.
 
-  <b>it : first parameter</b> string, can provide test name.
-  <b>it : second parameter</b> call back function, which we write the implementation of the test.
+  <b>it() : first parameter</b> string, can provide test name.
+  <b>it() : second parameter</b> call back function, which we write the implementation of the test.
   
-<b>cy:</b> cypress object.
+<b>cy :</b> cypress object.
 
-<b>visit:</b> function navigate to given url.
+<b>visit() :</b> navigate to given url.
 
-<b>get:</b> function expect the css selector of the element, and returns the web content. then can perform action on the element using below cypress fuctions.
+<b>get() :</b> expect the css selector of the element, and returns the web content. then can perform action on the element using below cypress fuctions.
 
 ```bash
 type() 
