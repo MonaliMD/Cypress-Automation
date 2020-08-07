@@ -32,7 +32,7 @@ sudo npm install cypress --save-dev
 5. Go inside <b>package.json</b>  file, there you can see cypress dependencies.
 
 6. Edit <b>"package.json"</b> with below code.Here add this command inside scripts to open cypress runner.
-```bash
+```javascript
 "open" : "$(npm bin)/cypress open"
 ```
 7. Then you open cypress runner.
@@ -40,3 +40,43 @@ sudo npm install cypress --save-dev
 npm run open
 ```
 
+## Understand the concept and write very frist Cypress test
+```javascript
+describe ('test suit description', () => {
+  it('test name', () => {
+  
+    cy.visit('url')
+    cy.get('css selector of the element').type('text')
+    cy.get('css selector of the element').should('validate the behavior')
+    
+  })
+})
+```
+<b>describe() :</b> can be use as test suite(group of tests).
+
+  <b>describe() : first parameter</b> string, can provide test suite name.
+  <b>describe() : second parameter</b> function.
+  
+<b>it():</b> test case.
+
+  <b>it() : first parameter</b> string, can provide test name.
+  <b>it() : second parameter</b> call back function, which we write the implementation of the test.
+  
+<b>cy :</b> cypress object.
+
+<b>visit() :</b> navigate to given url.
+
+<b>get() :</b> expect the css selector of the element, and returns the web content. then can perform action on the element using below cypress fuctions.
+
+```bash
+type() 
+
+click()
+```
+same way can find the eassertion(validate the behavior) on a element using below cypress fuctions.
+
+```bash
+should() 
+
+expect()
+```
