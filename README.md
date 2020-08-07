@@ -70,18 +70,13 @@ describe ('test suit description', () => {
 
 ```bash
 type() 
-```
 
-```bash
 click()
 ```
-
 same way can find the eassertion(validate the behavior) on a element using below cypress fuctions.
 
 ```bash
 should() 
-```
 
-```bash
 expect()
 ```
